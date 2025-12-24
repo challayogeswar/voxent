@@ -11,11 +11,11 @@ from preprocessing.normalize import normalize
 from preprocessing.vad import remove_silence
 from dIarization.diarizer import diarize
 from dIarization.segments import extract_segment
-from classification.pitch_gender import estimate_pitch
-from classification.confidence import classify_pitch
+from classification import get_classifier
 from dataset.organizer import save_sample
 from dataset.metadata import append_metadata
-from data_augmentation import AudioAugmenter, balance_dataset
+from quality_assurance.metrics import QualityMetrics
+from data_augmentation.augment import balance_dataset
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -23,17 +23,27 @@ logger = logging.getLogger(__name__)
 
 def validate_config(cfg):
     """Validate configuration parameters."""
-    required_keys = ['sample_rate', 'min_segment_duration', 'male_pitch_threshold', 'female_pitch_threshold', 'confidence_margin']
+    required_keys = ['sample_rate', 'min_segment_duration']
     for key in required_keys:
         if key not in cfg:
             raise ValueError(f"Missing required config key: {key}")
 
     if cfg['sample_rate'] <= 0:
         raise ValueError("sample_rate must be positive")
-    if cfg['male_pitch_threshold'] >= cfg['female_pitch_threshold']:
-        raise ValueError("male_pitch_threshold must be less than female_pitch_threshold")
     if cfg['min_segment_duration'] <= 0:
         raise ValueError("min_segment_duration must be positive")
+
+    # Validate classification settings
+    if 'classification' in cfg:
+        class_cfg = cfg['classification']
+        if 'pitch_male_threshold' in class_cfg and 'pitch_female_threshold' in class_cfg:
+            if class_cfg['pitch_male_threshold'] >= class_cfg['pitch_female_threshold']:
+                raise ValueError("pitch_male_threshold must be less than pitch_female_threshold")
+
+    # Legacy validation for backward compatibility
+    if 'male_pitch_threshold' in cfg and 'female_pitch_threshold' in cfg:
+        if cfg['male_pitch_threshold'] >= cfg['female_pitch_threshold']:
+            raise ValueError("male_pitch_threshold must be less than female_pitch_threshold")
 
     logger.info("Configuration validation passed")
     return True
@@ -53,6 +63,12 @@ def process_file(file_path, cfg):
 
     try:
         logger.info(f"Processing file: {os.path.basename(file_path)}")
+
+        # Load and validate configuration
+        validate_config(cfg)
+
+        # Initialize integrated classifier
+        classifier = get_classifier(cfg)
 
         # Load and preprocess audio
         audio = load_audio(file_path, cfg["sample_rate"])
@@ -74,29 +90,36 @@ def process_file(file_path, cfg):
                 if len(clip) / cfg["sample_rate"] < cfg["min_segment_duration"]:
                     continue
 
-                pitch = estimate_pitch(clip, cfg["sample_rate"])
-                label, conf = classify_pitch(
-                    pitch,
-                    cfg["male_pitch_threshold"],
-                    cfg["female_pitch_threshold"]
-                )
+                # Classify gender using integrated classifier
+                label, conf = classifier.classify(clip, cfg["sample_rate"])
+
+                # Estimate pitch for metadata (legacy compatibility)
+                from classification.pitch_gender import PitchGenderClassifier
+                pitch_estimator = PitchGenderClassifier()
+                pitch = pitch_estimator.estimate_pitch(clip, cfg["sample_rate"])
 
                 name = f"{os.path.basename(file_path).replace('.wav', '')}_spk{i}_conf{int(conf)}.wav"
-                save_sample(clip, cfg["sample_rate"], label, name, "data/voice_dataset")
+                saved_path = save_sample(clip, cfg["sample_rate"], label, name, "data/voice_dataset")
 
-                # Append metadata
-                append_metadata(
-                    "data/voice_dataset/metadata.csv",
-                    {
-                        "file": name,
-                        "source": os.path.basename(file_path),
-                        "speaker": seg["speaker"],
-                        "pitch": pitch,
-                        "label": label,
-                        "confidence": conf,
-                        "duration": len(clip)/cfg["sample_rate"]
-                    }
-                )
+                # Assess audio quality
+                quality_metrics = QualityMetrics(cfg["sample_rate"]).assess_audio_quality(saved_path)
+
+                # Append metadata with quality metrics
+                metadata_entry = {
+                    "file": name,
+                    "source": os.path.basename(file_path),
+                    "speaker": seg["speaker"],
+                    "pitch": pitch,
+                    "label": label,
+                    "confidence": conf,
+                    "duration": len(clip)/cfg["sample_rate"],
+                    "quality_score": quality_metrics["quality_score"],
+                    "snr": quality_metrics["snr"],
+                    "clipping_ratio": quality_metrics["clipping_ratio"],
+                    "silence_ratio": quality_metrics["silence_ratio"]
+                }
+
+                append_metadata("data/voice_dataset/metadata.csv", metadata_entry)
 
                 processed_segments += 1
 

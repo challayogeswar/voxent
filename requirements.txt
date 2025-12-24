@@ -9,3 +9,7 @@ scikit-learn
 pandas
 tqdm
 PyYAML
+Flask
+werkzeug
+joblib
+psutil

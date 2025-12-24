@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOXENT - Voice Dataset Creation Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .upload-section {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .upload-section.dragover {
+            border-color: #007bff;
+            background-color: #f8f9fa;
+        }
+        #fileInput {
+            margin: 10px 0;
+        }
+        #uploadBtn {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        #uploadBtn:hover {
+            background: #0056b3;
+        }
+        #uploadBtn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .status.processing {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+        }
+        .status.completed {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+        }
+        .status.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        .dataset-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .dataset-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .dataset-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .file-list {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .confidence {
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+        .confidence.high { background: #d4edda; color: #155724; }
+        .confidence.medium { background: #fff3cd; color: #856404; }
+        .confidence.low { background: #f8d7da; color: #721c24; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            text-align: center;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 8px;
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        #trainMLBtn {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        #trainMLBtn:hover {
+            background: #218838;
+        }
+        #trainMLBtn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎤 VOXENT - Voice Dataset Creation Tool</h1>
+        <p>Upload audio files to automatically extract and classify voice segments for AI training datasets.</p>
+
+        <!-- Statistics Section -->
+        <div id="statsSection">
+            <h2>📊 Dataset Statistics</h2>
+            <div id="statsContainer" class="stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="totalFiles">0</div>
+                    <div>Total Files</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="maleFiles">0</div>
+                    <div>Male Samples</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="femaleFiles">0</div>
+                    <div>Female Samples</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="duration">0h</div>
+                    <div>Est. Duration</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-section" id="uploadSection">
+            <h2>📤 Upload Audio Files</h2>
+            <p>Supported formats: WAV, MP3, M4A, FLAC, OGG (Max 50MB total)</p>
+            <input type="file" id="fileInput" multiple accept="audio/*">
+            <br>
+            <button id="uploadBtn" disabled>Upload & Process</button>
+            <div id="uploadStatus"></div>
+        </div>
+
+        <!-- Processing Status -->
+        <div id="statusSection" style="display: none;">
+            <h2>⚙️ Processing Status</h2>
+            <div id="statusMessage" class="status"></div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+        </div>
+
+        <!-- ML Classifier Training Section -->
+        <div class="container">
+            <h2>🤖 ML Classifier Training</h2>
+            <p>Train a machine learning model for improved gender classification accuracy.</p>
+
+            <div id="classifierStatus">
+                <p>Checking classifier status...</p>
+            </div>
+
+            <div style="margin: 20px 0;">
+                <label for="minConfidence">Minimum Confidence Threshold: </label>
+                <input type="number" id="minConfidence" value="70" min="50" max="95" step="5">
+                <span>%</span>
+            </div>
+
+            <button id="trainMLBtn">Train ML Classifier</button>
+            <div id="trainStatus"></div>
+        </div>
+
+        <!-- Dataset Browser -->
+        <div id="datasetSection">
+            <h2>📁 Dataset Browser</h2>
+            <div class="dataset-section" id="datasetContainer">
+                <div class="dataset-card">
+                    <h3>👨 Male Samples</h3>
+                    <div id="maleFilesList" class="file-list"></div>
+                </div>
+                <div class="dataset-card">
+                    <h3>👩 Female Samples</h3>
+                    <div id="femaleFilesList" class="file-list"></div>
+                </div>
+                <div class="dataset-card">
+                    <h3>❓ Uncertain Samples</h3>
+                    <div id="uncertainFilesList" class="file-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentJobId = null;
+        let statusCheckInterval = null;
+
+        // File input handling
+        const fileInput = document.getElementById('fileInput');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const uploadSection = document.getElementById('uploadSection');
+
+        fileInput.addEventListener('change', function() {
+            uploadBtn.disabled = this.files.length === 0;
+        });
+
+        // Drag and drop
+        uploadSection.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            this.classList.add('dragover');
+        });
+
+        uploadSection.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            this.classList.remove('dragover');
+        });
+
+        uploadSection.addEventListener('drop', function(e) {
+            e.preventDefault();
+            this.classList.remove('dragover');
+            fileInput.files = e.dataTransfer.files;
+            uploadBtn.disabled = fileInput.files.length === 0;
+        });
+
+        // Upload functionality
+        uploadBtn.addEventListener('click', async function() {
+            const files = fileInput.files;
+            if (files.length === 0) return;
+
+            const formData = new FormData();
+            for (let file of files) {
+                formData.append('files', file);
+            }
+
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = 'Uploading...';
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    currentJobId = result.job_id;
+                    document.getElementById('uploadStatus').innerHTML =
+                        `<div class="status processing">✅ ${result.message}</div>`;
+                    document.getElementById('statusSection').style.display = 'block';
+                    startStatusChecking();
+                } else {
+                    throw new Error(result.error);
+                }
+            } catch (error) {
+                document.getElementById('uploadStatus').innerHTML =
+                    `<div class="status error">❌ Upload failed: ${error.message}</div>`;
+            } finally {
+                uploadBtn.disabled = false;
+                uploadBtn.textContent = 'Upload & Process';
+            }
+        });
+
+        // Status checking
+        function startStatusChecking() {
+            if (statusCheckInterval) clearInterval(statusCheckInterval);
+            statusCheckInterval = setInterval(checkStatus, 2000);
+        }
+
+        async function checkStatus() {
+            if (!currentJobId) return;
+
+            try {
+                const response = await fetch(`/status/${currentJobId}`);
+                const status = await response.json();
+
+                const statusDiv = document.getElementById('statusMessage');
+                const progressBar = document.getElementById('progressBar');
+
+                if (status.status === 'processing') {
+                    statusDiv.className = 'status processing';
+                    statusDiv.textContent = `⚙️ ${status.message || 'Processing files...'}`;
+                    progressBar.style.width = '50%';
+                } else if (status.status === 'completed') {
+                    statusDiv.className = 'status completed';
+                    statusDiv.textContent = `✅ ${status.message}`;
+                    progressBar.style.width = '100%';
+                    clearInterval(statusCheckInterval);
+                    loadStats();
+                    loadDataset();
+                } else if (status.status === 'error') {
+                    statusDiv.className = 'status error';
+                    statusDiv.textContent = `❌ Processing failed: ${status.error}`;
+                    progressBar.style.width = '0%';
+                    clearInterval(statusCheckInterval);
+                }
+            } catch (error) {
+                console.error('Status check failed:', error);
+            }
+        }
+
+        // Load statistics
+        async function loadStats() {
+            try {
+                const response = await fetch('/stats');
+                const stats = await response.json();
+
+                document.getElementById('totalFiles').textContent = stats.total_files || 0;
+                document.getElementById('maleFiles').textContent = stats.male || 0;
+                document.getElementById('femaleFiles').textContent = stats.female || 0;
+                document.getElementById('duration').textContent = `${stats.estimated_duration_hours || 0}h`;
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+
+        // Load dataset files
+        async function loadDataset() {
+            const categories = ['male', 'female', 'uncertain'];
+
+            for (const category of categories) {
+                try {
+                    const response = await fetch(`/dataset/${category}`);
+                    const data = await response.json();
+
+                    const container = document.getElementById(`${category}FilesList`);
+                    container.innerHTML = '';
+
+                    if (data.files && data.files.length > 0) {
+                        data.files.forEach(file => {
+                            const confidenceClass = file.confidence > 80 ? 'high' :
+                                                  file.confidence > 60 ? 'medium' : 'low';
+
+                            const fileItem = document.createElement('div');
+                            fileItem.className = 'file-item';
+                            fileItem.innerHTML = `
+                                <span>${file.name}</span>
+                                <span class="confidence ${confidenceClass}">${file.confidence}%</span>
+                            `;
+                            container.appendChild(fileItem);
+                        });
+                    } else {
+                        container.innerHTML = '<p>No files found</p>';
+                    }
+                } catch (error) {
+                    console.error(`Failed to load ${category} files:`, error);
+                }
+            }
+        }
+
+        // Load initial data
+        loadStats();
+        loadDataset();
+        loadClassifierStatus();
+
+        // ML Training functionality
+        const trainMLBtn = document.getElementById('trainMLBtn');
+        const trainStatus = document.getElementById('trainStatus');
+        const minConfidence = document.getElementById('minConfidence');
+
+        trainMLBtn.addEventListener('click', async function() {
+            trainMLBtn.disabled = true;
+            trainMLBtn.textContent = 'Training...';
+
+            try {
+                const response = await fetch('/train-ml', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        min_confidence: parseFloat(minConfidence.value),
+                        force: false
+                    })
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    trainStatus.innerHTML = '<div class="status processing">🤖 Training started...</div>';
+                    // Start checking training status
+                    checkTrainingStatus(result.job_id);
+                } else {
+                    throw new Error(result.error);
+                }
+            } catch (error) {
+                trainStatus.innerHTML = `<div class="status error">❌ Training failed: ${error.message}</div>`;
+            } finally {
+                trainMLBtn.disabled = false;
+                trainMLBtn.textContent = 'Train ML Classifier';
+            }
+        });
+
+        async function checkTrainingStatus(jobId) {
+            const checkInterval = setInterval(async () => {
+                try {
+                    const response = await fetch(`/status/${jobId}`);
+                    const status = await response.json();
+
+                    if (status.status === 'training') {
+                        trainStatus.innerHTML = '<div class="status processing">🤖 Training in progress...</div>';
+                    } else if (status.status === 'completed') {
+                        trainStatus.innerHTML = `
+                            <div class="status completed">
+                                ✅ Training completed!<br>
+                                Accuracy: ${(status.results.accuracy * 100).toFixed(1)}%<br>
+                                Male F1: ${(status.results.f1_male * 100).toFixed(1)}%<br>
+                                Female F1: ${(status.results.f1_female * 100).toFixed(1)}%
+                            </div>
+                        `;
+                        clearInterval(checkInterval);
+                        loadClassifierStatus(); // Refresh classifier status
+                    } else if (status.status === 'error') {
+                        trainStatus.innerHTML = `<div class="status error">❌ Training failed: ${status.error}</div>`;
+                        clearInterval(checkInterval);
+                    }
+                } catch (error) {
+                    console.error('Training status check failed:', error);
+                    clearInterval(checkInterval);
+                }
+            }, 3000);
+        }
+
+        async function loadClassifierStatus() {
+            try {
+                const response = await fetch('/classifier-status');
+                const status = await response.json();
+
+                const statusDiv = document.getElementById('classifierStatus');
+                statusDiv.innerHTML = `
+                    <strong>Current Classifier:</strong><br>
+                    ML Available: ${status.ml_available ? '✅ Yes' : '❌ No'}<br>
+                    Pitch Thresholds: Male < ${status.pitch_thresholds.male}Hz, Female > ${status.pitch_thresholds.female}Hz
+                `;
+            } catch (error) {
+                console.error('Failed to load classifier status:', error);
+            }
+        }
+    </script>
+</body>
+</html>
