@@ -23,9 +23,9 @@ from pathlib import Path
 from datetime import datetime
 
 # Import modules
-from batch_organizer import BatchOrganizer
-from enhanced_diarizer import EnhancedSpeakerDiarizer
-from batch_processor import IntegratedBatchProcessor
+from .batch_organizer import BatchOrganizer
+from ..diarization.enhanced_diarizer import EnhancedSpeakerDiarizer
+from .batch_processor import IntegratedBatchProcessor
 
 
 class VoxentPipeline:

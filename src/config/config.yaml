@@ -65,13 +65,21 @@ diarization:
 # GENDER CLASSIFICATION SETTINGS
 # ============================================================================
 gender_classification:
-  # Method: 'pitch' (default), 'ml', or 'multi-feature'
-  method: "pitch"
+  # Method: 'pitch' (legacy), 'ml' (Phase 1), or 'ensemble' (combine both)
+  method: "ml"
   
-  # Pitch-based thresholds (Hz)
+  # Pitch-based thresholds (Hz) - used as fallback
   male_pitch_max: 150
   female_pitch_min: 180
   ambiguous_range: [150, 180]
+  
+  # ML Classifier settings
+  ml_classifier:
+    enabled: true
+    model_type: "randomforest"  # 'randomforest' or 'xgboost'
+    model_path: "models/gender_classifier"  # Directory containing trained model
+    confidence_threshold: 0.7  # Only use ML prediction if confidence > this
+    bootstrap_from_pitch: true  # Use pitch-based labels to bootstrap training
   
   # Confidence thresholds
   min_confidence: 0.5
@@ -113,9 +121,82 @@ gpu:
   use_mixed_precision: true
 
 # ============================================================================
-# AUDIO PREPROCESSING SETTINGS
+# AI/ML ENHANCEMENT SETTINGS (VOXENT v3.0+)
 # ============================================================================
-preprocessing:
+ai_enhancements:
+  # Enable all AI features
+  enabled: true
+  
+  # Phase 1: Foundation AI
+  phase1:
+    enabled: true
+    
+    # Voice Activity Detection (VAD)
+    vad:
+      enabled: true
+      method: "silero"  # 'silero' or 'webrtc'
+      min_speech_duration: 0.5  # Minimum speech segment in seconds
+      threshold: 0.5  # Confidence threshold (0-1)
+    
+    # ML-based gender classification (already configured above)
+    # See: gender_classification.ml_classifier
+  
+  # Phase 2: Intelligence Layer
+  phase2:
+    enabled: false  # Enable when ready
+    
+    # Quality Assessment
+    quality_assessment:
+      enabled: false
+      save_quality_report: true
+      quality_report_path: "data/voice_dataset/quality_report.json"
+      min_quality_score: 50  # Only keep segments above this score
+    
+    # Automatic Transcription (Whisper)
+    transcription:
+      enabled: false
+      model_size: "base"  # 'tiny', 'base', 'small', 'medium', 'large'
+      language: "en"
+      save_transcripts: true
+      transcripts_path: "data/voice_dataset/transcripts"
+    
+    # Speaker Embeddings
+    speaker_embeddings:
+      enabled: false
+      embedding_model: "pyannote"  # 'pyannote' or 'resemblyzer'
+      save_embeddings: true
+      embeddings_path: "data/voice_dataset/embeddings"
+      clustering_threshold: 0.5  # For cross-file speaker matching
+  
+  # Phase 3: Advanced AI (Future)
+  phase3:
+    enabled: false
+    
+    # Emotion Detection
+    emotion_detection:
+      enabled: false
+      model: "wav2vec2"
+    
+    # Active Learning
+    active_learning:
+      enabled: false
+      uncertainty_threshold: 0.5
+
+# ============================================================================
+# AI MODEL PATHS
+# ============================================================================
+ai_models:
+  # Directory to store/load trained models
+  model_directory: "models"
+  
+  # ML Classifier
+  gender_classifier_path: "models/gender_classifier"
+  
+  # Pre-trained models (auto-download from HuggingFace)
+  pretrained_models:
+    whisper_cache: "models/whisper_cache"
+    pyannote_cache: "models/pyannote_cache"
+    embeddings_cache: "models/embeddings_cache"
   # Target sample rate
   sample_rate: 16000
   

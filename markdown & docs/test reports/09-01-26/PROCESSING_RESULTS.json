@@ -1,0 +1,302 @@
+{
+  "timestamp": "2026-01-09T12:44:51.120285",
+  "total_files": 46,
+  "converted_files": 46,
+  "batches": {
+    "batch_001_0-2min": {
+      "files": 35,
+      "duration": 1792.704
+    },
+    "batch_002_2-4min": {
+      "files": 6,
+      "duration": 1038.12
+    },
+    "batch_003_4-10min": {
+      "files": 5,
+      "duration": 1617.96
+    }
+  },
+  "male": [
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142317.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 59.94,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142317.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 59.94,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142319.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 44.352,
+      "confidence": 0.8
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142319.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 44.352,
+      "confidence": 0.8
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512221950.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 6.48,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512221950.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 6.48,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQMGdlsfbIp7x2NXYZ8wKYDI4cJebCC1am_SlMX33HZV2bFNDV-teg2M0n-PoCDozUg8TwjqdLzYfeN2ei9gB4NFznFPuoa1Mx7V8GU_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 39.42,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQMGdlsfbIp7x2NXYZ8wKYDI4cJebCC1am_SlMX33HZV2bFNDV-teg2M0n-PoCDozUg8TwjqdLzYfeN2ei9gB4NFznFPuoa1Mx7V8GU_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 39.42,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQNGxC8bWFDBf_Iz3MoSshZCuOHDVF_4M3Cta9NVxuDWRfhUDpKo51cdv7zk1INEiU8jwjV_mj23zg7n7WWatiDzew9jh57Cnr7K7FE_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 48.096,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQNGxC8bWFDBf_Iz3MoSshZCuOHDVF_4M3Cta9NVxuDWRfhUDpKo51cdv7zk1INEiU8jwjV_mj23zg7n7WWatiDzew9jh57Cnr7K7FE_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 48.096,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQNY-VBXQ0HoJbbRNj5uJ5BGv5CnBh0SfBBa-SqO2tXSSbq2u5soG4FUnBHyMy79T6P7hOqFzYgZ3KA6Q7MTI9euBK4PbHsEBmYJrNg_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 54.504,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQNY-VBXQ0HoJbbRNj5uJ5BGv5CnBh0SfBBa-SqO2tXSSbq2u5soG4FUnBHyMy79T6P7hOqFzYgZ3KA6Q7MTI9euBK4PbHsEBmYJrNg_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 54.504,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQOtF76z2pcjZsJ81Weobl6mUyRogrBBoISDTV4Ut9FCG2ar3O5WTcnHBEnI2_W5cdMEl9gbCmWQKap0Yb_Y0fKm6hMIdgjIPyp7v0A_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 72.54,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQOtF76z2pcjZsJ81Weobl6mUyRogrBBoISDTV4Ut9FCG2ar3O5WTcnHBEnI2_W5cdMEl9gbCmWQKap0Yb_Y0fKm6hMIdgjIPyp7v0A_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 72.54,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPE6zNGrNOfgNmsSazKS7aKZWM7orc4x_kL0p8DNnLzkYGXVHjhIBUizMjtN1toOQVZyaZhA8cDsfoPI8_cvCkn5wSHmE44U0UOusY_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 50.94,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPE6zNGrNOfgNmsSazKS7aKZWM7orc4x_kL0p8DNnLzkYGXVHjhIBUizMjtN1toOQVZyaZhA8cDsfoPI8_cvCkn5wSHmE44U0UOusY_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 50.94,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPHd0BpHWrZQx5SPV3IqsOYRXFnPSg0uOWNG_fTqqbZAhekmA-hiPztX05TscDCldBU4VpHsxxmllpXY1ovIVV51m2oPyNtOoA5Ns4_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 59.94,
+      "confidence": 0.8
+    },
+    {
+      "filename": "SaveClip.App_AQPHd0BpHWrZQx5SPV3IqsOYRXFnPSg0uOWNG_fTqqbZAhekmA-hiPztX05TscDCldBU4VpHsxxmllpXY1ovIVV51m2oPyNtOoA5Ns4_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 59.94,
+      "confidence": 0.8
+    },
+    {
+      "filename": "SaveClip.App_AQPIygeuh5zlcgu5a1zl_QZWcZkPkGh46_T6y9Suuzg3PMaBa8sDX74vM7BqgGr5URYCULlvW71oE8MZBSpl_TaUgsYDdWAgni940nM_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 44.784,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPIygeuh5zlcgu5a1zl_QZWcZkPkGh46_T6y9Suuzg3PMaBa8sDX74vM7BqgGr5URYCULlvW71oE8MZBSpl_TaUgsYDdWAgni940nM_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 44.784,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPlyxJuQuh6hsbdi2KfxwwWWVvlyz1DtRoDVrovRH_SdFz3ytEKRgogMrAjN-eI000usFRBCjsVt7Wn8aINgBFoSJm3mzbchdCtWvQ_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 77.76,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "SaveClip.App_AQPlyxJuQuh6hsbdi2KfxwwWWVvlyz1DtRoDVrovRH_SdFz3ytEKRgogMrAjN-eI000usFRBCjsVt7Wn8aINgBFoSJm3mzbchdCtWvQ_mp3.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 77.76,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_1m30s_1.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 90.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_1m_1.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 60.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_2m_1.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 120.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_30s_1.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 30.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_45s_1.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 45.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_2m30s_1.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 150.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_3m30s_1.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 210.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_3m_1.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 180.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_4m_1.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 240.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142242.wav",
+      "batch": "batch_003_4-10min",
+      "duration": 343.98,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142242.wav",
+      "batch": "batch_003_4-10min",
+      "duration": 343.98,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_4m30s_1.wav",
+      "batch": "batch_003_4-10min",
+      "duration": 270.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_5m_1.wav",
+      "batch": "batch_003_4-10min",
+      "duration": 300.0,
+      "confidence": 0.8571428571428571
+    },
+    {
+      "filename": "test_audio_6m_1.wav",
+      "batch": "batch_003_4-10min",
+      "duration": 360.0,
+      "confidence": 0.8571428571428571
+    }
+  ],
+  "female": [
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041914.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 23.76,
+      "confidence": 0.6666666666666666
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041914.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 23.76,
+      "confidence": 0.6666666666666666
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142309.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 45.324,
+      "confidence": 0.5555555555555556
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512142309.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 45.324,
+      "confidence": 0.5555555555555556
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512242154.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 24.732,
+      "confidence": 0.5555555555555556
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512242154.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 24.732,
+      "confidence": 0.5555555555555556
+    }
+  ],
+  "uncertain": [
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041915.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 71.28,
+      "confidence": 0.5454545454545454
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041915.wav",
+      "batch": "batch_001_0-2min",
+      "duration": 71.28,
+      "confidence": 0.5454545454545454
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041909.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 129.06,
+      "confidence": 0.5454545454545454
+    },
+    {
+      "filename": "CHENNURU SHREYA REDDY-2512041909.wav",
+      "batch": "batch_002_2-4min",
+      "duration": 129.06,
+      "confidence": 0.5454545454545454
+    }
+  ],
+  "errors": []
+}

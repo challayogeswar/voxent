@@ -1,0 +1,3350 @@
+{
+  "timestamp": "2026-01-09T13:27:19.153564",
+  "input_files": 9,
+  "extracted_segments": 412,
+  "male_segments": 386,
+  "female_segments": 20,
+  "uncertain_segments": 6,
+  "files": {
+    "CHENNURU SHREYA REDDY-2512041909.mp3": {
+      "original_duration": 129.06,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.28,
+          "output": "male_1",
+          "file": "male_1.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8320000000000003,
+          "output": "male_2",
+          "file": "male_2.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_3",
+          "file": "male_3.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.6799999999999997,
+          "output": "male_4",
+          "file": "male_4.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.41600000000000037,
+          "output": "male_5",
+          "file": "male_5.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.5359999999999996,
+          "output": "male_6",
+          "file": "male_6.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.5920000000000005,
+          "output": "male_7",
+          "file": "male_7.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.855999999999998,
+          "output": "male_8",
+          "file": "male_8.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.5760000000000005,
+          "output": "male_9",
+          "file": "male_9.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_10",
+          "file": "male_10.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7359999999999971,
+          "output": "male_11",
+          "file": "male_11.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_12",
+          "file": "male_12.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.240000000000002,
+          "output": "male_13",
+          "file": "male_13.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_14",
+          "file": "male_14.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.6480000000000032,
+          "output": "male_15",
+          "file": "male_15.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Female",
+          "confidence": 0.6666666666666666,
+          "duration": 0.8319999999999972,
+          "output": "female_1",
+          "file": "female_1.wav"
+        },
+        {
+          "segment": 17,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.103999999999999,
+          "output": "male_16",
+          "file": "male_16.wav"
+        },
+        {
+          "segment": 18,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4799999999999969,
+          "output": "male_17",
+          "file": "male_17.wav"
+        },
+        {
+          "segment": 19,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.152000000000001,
+          "output": "male_18",
+          "file": "male_18.wav"
+        },
+        {
+          "segment": 20,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 1.3760000000000048,
+          "output": "female_2",
+          "file": "female_2.wav"
+        },
+        {
+          "segment": 21,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.3120000000000047,
+          "output": "male_19",
+          "file": "male_19.wav"
+        },
+        {
+          "segment": 22,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.0720000000000027,
+          "output": "male_20",
+          "file": "male_20.wav"
+        },
+        {
+          "segment": 23,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.1839999999999975,
+          "output": "male_21",
+          "file": "male_21.wav"
+        },
+        {
+          "segment": 24,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999999676,
+          "output": "male_22",
+          "file": "male_22.wav"
+        },
+        {
+          "segment": 25,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.112000000000002,
+          "output": "male_23",
+          "file": "male_23.wav"
+        },
+        {
+          "segment": 26,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 0.7039999999999935,
+          "output": "uncertain_1",
+          "file": "uncertain_1.wav"
+        },
+        {
+          "segment": 27,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999999676,
+          "output": "male_24",
+          "file": "male_24.wav"
+        },
+        {
+          "segment": 28,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.9200000000000017,
+          "output": "male_25",
+          "file": "male_25.wav"
+        },
+        {
+          "segment": 29,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 2.368000000000002,
+          "output": "male_26",
+          "file": "male_26.wav"
+        },
+        {
+          "segment": 30,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.3120000000000047,
+          "output": "male_27",
+          "file": "male_27.wav"
+        },
+        {
+          "segment": 31,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.1199999999999974,
+          "output": "male_28",
+          "file": "male_28.wav"
+        },
+        {
+          "segment": 32,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 4.863999999999997,
+          "output": "male_29",
+          "file": "male_29.wav"
+        },
+        {
+          "segment": 33,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.8799999999999955,
+          "output": "male_30",
+          "file": "male_30.wav"
+        },
+        {
+          "segment": 34,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 4.096000000000004,
+          "output": "male_31",
+          "file": "male_31.wav"
+        },
+        {
+          "segment": 35,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.343999999999994,
+          "output": "male_32",
+          "file": "male_32.wav"
+        },
+        {
+          "segment": 36,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 5.024000000000001,
+          "output": "male_33",
+          "file": "male_33.wav"
+        },
+        {
+          "segment": 37,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 6.176000000000002,
+          "output": "male_34",
+          "file": "male_34.wav"
+        },
+        {
+          "segment": 38,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8640000000000043,
+          "output": "male_35",
+          "file": "male_35.wav"
+        },
+        {
+          "segment": 39,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.7280000000000086,
+          "output": "male_36",
+          "file": "male_36.wav"
+        },
+        {
+          "segment": 40,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_37",
+          "file": "male_37.wav"
+        },
+        {
+          "segment": 41,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000077,
+          "output": "male_38",
+          "file": "male_38.wav"
+        },
+        {
+          "segment": 42,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_39",
+          "file": "male_39.wav"
+        },
+        {
+          "segment": 43,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.112000000000009,
+          "output": "male_40",
+          "file": "male_40.wav"
+        },
+        {
+          "segment": 44,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 0.5439999999999969,
+          "output": "uncertain_2",
+          "file": "uncertain_2.wav"
+        },
+        {
+          "segment": 45,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.6159999999999997,
+          "output": "male_41",
+          "file": "male_41.wav"
+        },
+        {
+          "segment": 46,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 2.4639999999999986,
+          "output": "male_42",
+          "file": "male_42.wav"
+        },
+        {
+          "segment": 47,
+          "gender": "Male",
+          "confidence": 0.6666666666666666,
+          "duration": 1.2480000000000047,
+          "output": "male_43",
+          "file": "male_43.wav"
+        },
+        {
+          "segment": 48,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.8799999999999955,
+          "output": "male_44",
+          "file": "male_44.wav"
+        },
+        {
+          "segment": 49,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.7920000000000016,
+          "output": "male_45",
+          "file": "male_45.wav"
+        },
+        {
+          "segment": 50,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9919999999999902,
+          "output": "male_46",
+          "file": "male_46.wav"
+        },
+        {
+          "segment": 51,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.215999999999994,
+          "output": "male_47",
+          "file": "male_47.wav"
+        },
+        {
+          "segment": 52,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8960000000000008,
+          "output": "male_48",
+          "file": "male_48.wav"
+        },
+        {
+          "segment": 53,
+          "gender": "Female",
+          "confidence": 0.6666666666666666,
+          "duration": 0.5760000000000076,
+          "output": "female_3",
+          "file": "female_3.wav"
+        },
+        {
+          "segment": 54,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 0.6400000000000006,
+          "output": "uncertain_3",
+          "file": "uncertain_3.wav"
+        },
+        {
+          "segment": 55,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_49",
+          "file": "male_49.wav"
+        },
+        {
+          "segment": 56,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_50",
+          "file": "male_50.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512041914.mp3": {
+      "original_duration": 23.76,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.48,
+          "output": "male_51",
+          "file": "male_51.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Female",
+          "confidence": 0.6666666666666666,
+          "duration": 0.4159999999999999,
+          "output": "female_4",
+          "file": "female_4.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.8000000000000003,
+          "output": "male_52",
+          "file": "male_52.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Female",
+          "confidence": 0.8125,
+          "duration": 0.7999999999999998,
+          "output": "female_5",
+          "file": "female_5.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.5040000000000004,
+          "output": "male_53",
+          "file": "male_53.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.0239999999999991,
+          "output": "male_54",
+          "file": "male_54.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.248000000000001,
+          "output": "male_55",
+          "file": "male_55.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 0.6080000000000005,
+          "output": "female_6",
+          "file": "female_6.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000005,
+          "output": "male_56",
+          "file": "male_56.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 0.5759999999999987,
+          "output": "female_7",
+          "file": "female_7.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000006,
+          "output": "male_57",
+          "file": "male_57.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Female",
+          "confidence": 0.6923076923076923,
+          "duration": 0.9919999999999991,
+          "output": "female_8",
+          "file": "female_8.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.1839999999999975,
+          "output": "male_58",
+          "file": "male_58.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.41600000000000037,
+          "output": "male_59",
+          "file": "male_59.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_60",
+          "file": "male_60.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512041915.mp3": {
+      "original_duration": 71.28,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4080000000000001,
+          "output": "male_61",
+          "file": "male_61.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.088,
+          "output": "male_62",
+          "file": "male_62.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.992,
+          "output": "male_63",
+          "file": "male_63.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.7919999999999998,
+          "output": "male_64",
+          "file": "male_64.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 4.32,
+          "output": "male_65",
+          "file": "male_65.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.7359999999999989,
+          "output": "male_66",
+          "file": "male_66.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 1.152000000000001,
+          "output": "female_9",
+          "file": "female_9.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.0799999999999983,
+          "output": "male_67",
+          "file": "male_67.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8560000000000016,
+          "output": "male_68",
+          "file": "male_68.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.41600000000000037,
+          "output": "male_69",
+          "file": "male_69.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9279999999999973,
+          "output": "male_70",
+          "file": "male_70.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000005,
+          "output": "male_71",
+          "file": "male_71.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_72",
+          "file": "male_72.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7680000000000007,
+          "output": "male_73",
+          "file": "male_73.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 0.9919999999999973,
+          "output": "female_10",
+          "file": "female_10.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.136000000000003,
+          "output": "male_74",
+          "file": "male_74.wav"
+        },
+        {
+          "segment": 17,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.44799999999999685,
+          "output": "male_75",
+          "file": "male_75.wav"
+        },
+        {
+          "segment": 18,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_76",
+          "file": "male_76.wav"
+        },
+        {
+          "segment": 19,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 1.9519999999999982,
+          "output": "male_77",
+          "file": "male_77.wav"
+        },
+        {
+          "segment": 20,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3120000000000047,
+          "output": "male_78",
+          "file": "male_78.wav"
+        },
+        {
+          "segment": 21,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8559999999999945,
+          "output": "male_79",
+          "file": "male_79.wav"
+        },
+        {
+          "segment": 22,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4160000000000039,
+          "output": "male_80",
+          "file": "male_80.wav"
+        },
+        {
+          "segment": 23,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000042,
+          "output": "male_81",
+          "file": "male_81.wav"
+        },
+        {
+          "segment": 24,
+          "gender": "Female",
+          "confidence": 0.8125,
+          "duration": 1.152000000000001,
+          "output": "female_11",
+          "file": "female_11.wav"
+        },
+        {
+          "segment": 25,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999969,
+          "output": "male_82",
+          "file": "male_82.wav"
+        },
+        {
+          "segment": 26,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_83",
+          "file": "male_83.wav"
+        },
+        {
+          "segment": 27,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 3.4239999999999995,
+          "output": "female_12",
+          "file": "female_12.wav"
+        },
+        {
+          "segment": 28,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4399999999999977,
+          "output": "male_84",
+          "file": "male_84.wav"
+        },
+        {
+          "segment": 29,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.4480000000000004,
+          "output": "male_85",
+          "file": "male_85.wav"
+        },
+        {
+          "segment": 30,
+          "gender": "Male",
+          "confidence": 0.75,
+          "duration": 0.3200000000000003,
+          "output": "male_86",
+          "file": "male_86.wav"
+        },
+        {
+          "segment": 31,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.544000000000004,
+          "output": "male_87",
+          "file": "male_87.wav"
+        },
+        {
+          "segment": 32,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 0.8320000000000007,
+          "output": "uncertain_4",
+          "file": "uncertain_4.wav"
+        },
+        {
+          "segment": 33,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7359999999999971,
+          "output": "male_88",
+          "file": "male_88.wav"
+        },
+        {
+          "segment": 34,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.5039999999999978,
+          "output": "male_89",
+          "file": "male_89.wav"
+        },
+        {
+          "segment": 35,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7680000000000007,
+          "output": "male_90",
+          "file": "male_90.wav"
+        },
+        {
+          "segment": 36,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.152000000000001,
+          "output": "male_91",
+          "file": "male_91.wav"
+        },
+        {
+          "segment": 37,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_92",
+          "file": "male_92.wav"
+        },
+        {
+          "segment": 38,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.7680000000000007,
+          "output": "male_93",
+          "file": "male_93.wav"
+        },
+        {
+          "segment": 39,
+          "gender": "Male",
+          "confidence": 0.75,
+          "duration": 2.495999999999995,
+          "output": "male_94",
+          "file": "male_94.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512142242.mp3": {
+      "original_duration": 343.98,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.544,
+          "output": "male_95",
+          "file": "male_95.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.44799999999999995,
+          "output": "male_96",
+          "file": "male_96.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999999,
+          "output": "male_97",
+          "file": "male_97.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999995,
+          "output": "male_98",
+          "file": "male_98.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_99",
+          "file": "male_99.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_100",
+          "file": "male_100.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8959999999999999,
+          "output": "male_101",
+          "file": "male_101.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3119999999999994,
+          "output": "male_102",
+          "file": "male_102.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.47999999999999865,
+          "output": "male_103",
+          "file": "male_103.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_104",
+          "file": "male_104.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000005,
+          "output": "male_105",
+          "file": "male_105.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.152000000000001,
+          "output": "male_106",
+          "file": "male_106.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7359999999999971,
+          "output": "male_107",
+          "file": "male_107.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.5680000000000014,
+          "output": "male_108",
+          "file": "male_108.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999972,
+          "output": "male_109",
+          "file": "male_109.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000007,
+          "output": "male_110",
+          "file": "male_110.wav"
+        },
+        {
+          "segment": 17,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.6320000000000014,
+          "output": "male_111",
+          "file": "male_111.wav"
+        },
+        {
+          "segment": 18,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4399999999999977,
+          "output": "male_112",
+          "file": "male_112.wav"
+        },
+        {
+          "segment": 19,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000005,
+          "output": "male_113",
+          "file": "male_113.wav"
+        },
+        {
+          "segment": 20,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.4480000000000004,
+          "output": "male_114",
+          "file": "male_114.wav"
+        },
+        {
+          "segment": 21,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_115",
+          "file": "male_115.wav"
+        },
+        {
+          "segment": 22,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8640000000000008,
+          "output": "male_116",
+          "file": "male_116.wav"
+        },
+        {
+          "segment": 23,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5440000000000005,
+          "output": "male_117",
+          "file": "male_117.wav"
+        },
+        {
+          "segment": 24,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.5679999999999978,
+          "output": "male_118",
+          "file": "male_118.wav"
+        },
+        {
+          "segment": 25,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_119",
+          "file": "male_119.wav"
+        },
+        {
+          "segment": 26,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.4799999999999969,
+          "output": "male_120",
+          "file": "male_120.wav"
+        },
+        {
+          "segment": 27,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000042,
+          "output": "male_121",
+          "file": "male_121.wav"
+        },
+        {
+          "segment": 28,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7999999999999972,
+          "output": "male_122",
+          "file": "male_122.wav"
+        },
+        {
+          "segment": 29,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000006,
+          "output": "male_123",
+          "file": "male_123.wav"
+        },
+        {
+          "segment": 30,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_124",
+          "file": "male_124.wav"
+        },
+        {
+          "segment": 31,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9279999999999973,
+          "output": "male_125",
+          "file": "male_125.wav"
+        },
+        {
+          "segment": 32,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_126",
+          "file": "male_126.wav"
+        },
+        {
+          "segment": 33,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4720000000000013,
+          "output": "male_127",
+          "file": "male_127.wav"
+        },
+        {
+          "segment": 34,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_128",
+          "file": "male_128.wav"
+        },
+        {
+          "segment": 35,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_129",
+          "file": "male_129.wav"
+        },
+        {
+          "segment": 36,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3119999999999976,
+          "output": "male_130",
+          "file": "male_130.wav"
+        },
+        {
+          "segment": 37,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8960000000000008,
+          "output": "male_131",
+          "file": "male_131.wav"
+        },
+        {
+          "segment": 38,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_132",
+          "file": "male_132.wav"
+        },
+        {
+          "segment": 39,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_133",
+          "file": "male_133.wav"
+        },
+        {
+          "segment": 40,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_134",
+          "file": "male_134.wav"
+        },
+        {
+          "segment": 41,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_135",
+          "file": "male_135.wav"
+        },
+        {
+          "segment": 42,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_136",
+          "file": "male_136.wav"
+        },
+        {
+          "segment": 43,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7680000000000007,
+          "output": "male_137",
+          "file": "male_137.wav"
+        },
+        {
+          "segment": 44,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999969,
+          "output": "male_138",
+          "file": "male_138.wav"
+        },
+        {
+          "segment": 45,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_139",
+          "file": "male_139.wav"
+        },
+        {
+          "segment": 46,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_140",
+          "file": "male_140.wav"
+        },
+        {
+          "segment": 47,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_141",
+          "file": "male_141.wav"
+        },
+        {
+          "segment": 48,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_142",
+          "file": "male_142.wav"
+        },
+        {
+          "segment": 49,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000076,
+          "output": "male_143",
+          "file": "male_143.wav"
+        },
+        {
+          "segment": 50,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7039999999999935,
+          "output": "male_144",
+          "file": "male_144.wav"
+        },
+        {
+          "segment": 51,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.416000000000011,
+          "output": "male_145",
+          "file": "male_145.wav"
+        },
+        {
+          "segment": 52,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.480000000000004,
+          "output": "male_146",
+          "file": "male_146.wav"
+        },
+        {
+          "segment": 53,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_147",
+          "file": "male_147.wav"
+        },
+        {
+          "segment": 54,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_148",
+          "file": "male_148.wav"
+        },
+        {
+          "segment": 55,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_149",
+          "file": "male_149.wav"
+        },
+        {
+          "segment": 56,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9599999999999937,
+          "output": "male_150",
+          "file": "male_150.wav"
+        },
+        {
+          "segment": 57,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_151",
+          "file": "male_151.wav"
+        },
+        {
+          "segment": 58,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5119999999999862,
+          "output": "male_152",
+          "file": "male_152.wav"
+        },
+        {
+          "segment": 59,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_153",
+          "file": "male_153.wav"
+        },
+        {
+          "segment": 60,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_154",
+          "file": "male_154.wav"
+        },
+        {
+          "segment": 61,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0560000000000116,
+          "output": "male_155",
+          "file": "male_155.wav"
+        },
+        {
+          "segment": 62,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.5759999999999934,
+          "output": "male_156",
+          "file": "male_156.wav"
+        },
+        {
+          "segment": 63,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_157",
+          "file": "male_157.wav"
+        },
+        {
+          "segment": 64,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.4000000000000057,
+          "output": "male_158",
+          "file": "male_158.wav"
+        },
+        {
+          "segment": 65,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_159",
+          "file": "male_159.wav"
+        },
+        {
+          "segment": 66,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8320000000000078,
+          "output": "male_160",
+          "file": "male_160.wav"
+        },
+        {
+          "segment": 67,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.35200000000000387,
+          "output": "male_161",
+          "file": "male_161.wav"
+        },
+        {
+          "segment": 68,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000042,
+          "output": "male_162",
+          "file": "male_162.wav"
+        },
+        {
+          "segment": 69,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_163",
+          "file": "male_163.wav"
+        },
+        {
+          "segment": 70,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.1839999999999975,
+          "output": "male_164",
+          "file": "male_164.wav"
+        },
+        {
+          "segment": 71,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_165",
+          "file": "male_165.wav"
+        },
+        {
+          "segment": 72,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.3360000000000127,
+          "output": "male_166",
+          "file": "male_166.wav"
+        },
+        {
+          "segment": 73,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8640000000000043,
+          "output": "male_167",
+          "file": "male_167.wav"
+        },
+        {
+          "segment": 74,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.480000000000004,
+          "output": "male_168",
+          "file": "male_168.wav"
+        },
+        {
+          "segment": 75,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999969,
+          "output": "male_169",
+          "file": "male_169.wav"
+        },
+        {
+          "segment": 76,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.671999999999997,
+          "output": "male_170",
+          "file": "male_170.wav"
+        },
+        {
+          "segment": 77,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.6880000000000024,
+          "output": "male_171",
+          "file": "male_171.wav"
+        },
+        {
+          "segment": 78,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0559999999999974,
+          "output": "male_172",
+          "file": "male_172.wav"
+        },
+        {
+          "segment": 79,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.671999999999997,
+          "output": "male_173",
+          "file": "male_173.wav"
+        },
+        {
+          "segment": 80,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.407999999999987,
+          "output": "male_174",
+          "file": "male_174.wav"
+        },
+        {
+          "segment": 81,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.687999999999988,
+          "output": "male_175",
+          "file": "male_175.wav"
+        },
+        {
+          "segment": 82,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_176",
+          "file": "male_176.wav"
+        },
+        {
+          "segment": 83,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_177",
+          "file": "male_177.wav"
+        },
+        {
+          "segment": 84,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999998965,
+          "output": "male_178",
+          "file": "male_178.wav"
+        },
+        {
+          "segment": 85,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.2160000000000082,
+          "output": "male_179",
+          "file": "male_179.wav"
+        },
+        {
+          "segment": 86,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_180",
+          "file": "male_180.wav"
+        },
+        {
+          "segment": 87,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_181",
+          "file": "male_181.wav"
+        },
+        {
+          "segment": 88,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_182",
+          "file": "male_182.wav"
+        },
+        {
+          "segment": 89,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000218,
+          "output": "male_183",
+          "file": "male_183.wav"
+        },
+        {
+          "segment": 90,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.2719999999999914,
+          "output": "male_184",
+          "file": "male_184.wav"
+        },
+        {
+          "segment": 91,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_185",
+          "file": "male_185.wav"
+        },
+        {
+          "segment": 92,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5759999999999934,
+          "output": "male_186",
+          "file": "male_186.wav"
+        },
+        {
+          "segment": 93,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_187",
+          "file": "male_187.wav"
+        },
+        {
+          "segment": 94,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38399999999998613,
+          "output": "male_188",
+          "file": "male_188.wav"
+        },
+        {
+          "segment": 95,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_189",
+          "file": "male_189.wav"
+        },
+        {
+          "segment": 96,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_190",
+          "file": "male_190.wav"
+        },
+        {
+          "segment": 97,
+          "gender": "Male",
+          "confidence": 0.6666666666666666,
+          "duration": 1.0560000000000116,
+          "output": "male_191",
+          "file": "male_191.wav"
+        },
+        {
+          "segment": 98,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.671999999999997,
+          "output": "male_192",
+          "file": "male_192.wav"
+        },
+        {
+          "segment": 99,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4080000000000155,
+          "output": "male_193",
+          "file": "male_193.wav"
+        },
+        {
+          "segment": 100,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.8000000000000114,
+          "output": "male_194",
+          "file": "male_194.wav"
+        },
+        {
+          "segment": 101,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7039999999999793,
+          "output": "male_195",
+          "file": "male_195.wav"
+        },
+        {
+          "segment": 102,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8640000000000043,
+          "output": "male_196",
+          "file": "male_196.wav"
+        },
+        {
+          "segment": 103,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7039999999999793,
+          "output": "male_197",
+          "file": "male_197.wav"
+        },
+        {
+          "segment": 104,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_198",
+          "file": "male_198.wav"
+        },
+        {
+          "segment": 105,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.0400000000000205,
+          "output": "male_199",
+          "file": "male_199.wav"
+        },
+        {
+          "segment": 106,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_200",
+          "file": "male_200.wav"
+        },
+        {
+          "segment": 107,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8959999999999866,
+          "output": "male_201",
+          "file": "male_201.wav"
+        },
+        {
+          "segment": 108,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_202",
+          "file": "male_202.wav"
+        },
+        {
+          "segment": 109,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.9519999999999982,
+          "output": "male_203",
+          "file": "male_203.wav"
+        },
+        {
+          "segment": 110,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4399999999999977,
+          "output": "male_204",
+          "file": "male_204.wav"
+        },
+        {
+          "segment": 111,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000001455,
+          "output": "male_205",
+          "file": "male_205.wav"
+        },
+        {
+          "segment": 112,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5759999999999934,
+          "output": "male_206",
+          "file": "male_206.wav"
+        },
+        {
+          "segment": 113,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_207",
+          "file": "male_207.wav"
+        },
+        {
+          "segment": 114,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5759999999999934,
+          "output": "male_208",
+          "file": "male_208.wav"
+        },
+        {
+          "segment": 115,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000216,
+          "output": "male_209",
+          "file": "male_209.wav"
+        },
+        {
+          "segment": 116,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8239999999999839,
+          "output": "male_210",
+          "file": "male_210.wav"
+        },
+        {
+          "segment": 117,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.920000000000016,
+          "output": "male_211",
+          "file": "male_211.wav"
+        },
+        {
+          "segment": 118,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_212",
+          "file": "male_212.wav"
+        },
+        {
+          "segment": 119,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.568000000000012,
+          "output": "male_213",
+          "file": "male_213.wav"
+        },
+        {
+          "segment": 120,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_214",
+          "file": "male_214.wav"
+        },
+        {
+          "segment": 121,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_215",
+          "file": "male_215.wav"
+        },
+        {
+          "segment": 122,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4800000000000182,
+          "output": "male_216",
+          "file": "male_216.wav"
+        },
+        {
+          "segment": 123,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8559999999999945,
+          "output": "male_217",
+          "file": "male_217.wav"
+        },
+        {
+          "segment": 124,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_218",
+          "file": "male_218.wav"
+        },
+        {
+          "segment": 125,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8000000000000114,
+          "output": "male_219",
+          "file": "male_219.wav"
+        },
+        {
+          "segment": 126,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.671999999999997,
+          "output": "male_220",
+          "file": "male_220.wav"
+        },
+        {
+          "segment": 127,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0879999999999939,
+          "output": "male_221",
+          "file": "male_221.wav"
+        },
+        {
+          "segment": 128,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_222",
+          "file": "male_222.wav"
+        },
+        {
+          "segment": 129,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_223",
+          "file": "male_223.wav"
+        },
+        {
+          "segment": 130,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38399999999998613,
+          "output": "male_224",
+          "file": "male_224.wav"
+        },
+        {
+          "segment": 131,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_225",
+          "file": "male_225.wav"
+        },
+        {
+          "segment": 132,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999997544,
+          "output": "male_226",
+          "file": "male_226.wav"
+        },
+        {
+          "segment": 133,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.024000000000001,
+          "output": "male_227",
+          "file": "male_227.wav"
+        },
+        {
+          "segment": 134,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8880000000000052,
+          "output": "male_228",
+          "file": "male_228.wav"
+        },
+        {
+          "segment": 135,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000001455,
+          "output": "male_229",
+          "file": "male_229.wav"
+        },
+        {
+          "segment": 136,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0559999999999832,
+          "output": "male_230",
+          "file": "male_230.wav"
+        },
+        {
+          "segment": 137,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7680000000000007,
+          "output": "male_231",
+          "file": "male_231.wav"
+        },
+        {
+          "segment": 138,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0560000000000116,
+          "output": "male_232",
+          "file": "male_232.wav"
+        },
+        {
+          "segment": 139,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7039999999999793,
+          "output": "male_233",
+          "file": "male_233.wav"
+        },
+        {
+          "segment": 140,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.1440000000000055,
+          "output": "male_234",
+          "file": "male_234.wav"
+        },
+        {
+          "segment": 141,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4800000000000182,
+          "output": "male_235",
+          "file": "male_235.wav"
+        },
+        {
+          "segment": 142,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000075,
+          "output": "male_236",
+          "file": "male_236.wav"
+        },
+        {
+          "segment": 143,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.015999999999991,
+          "output": "male_237",
+          "file": "male_237.wav"
+        },
+        {
+          "segment": 144,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_238",
+          "file": "male_238.wav"
+        },
+        {
+          "segment": 145,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.024000000000001,
+          "output": "male_239",
+          "file": "male_239.wav"
+        },
+        {
+          "segment": 146,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.832000000000022,
+          "output": "male_240",
+          "file": "male_240.wav"
+        },
+        {
+          "segment": 147,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.2160000000000082,
+          "output": "male_241",
+          "file": "male_241.wav"
+        },
+        {
+          "segment": 148,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.3359999999999843,
+          "output": "male_242",
+          "file": "male_242.wav"
+        },
+        {
+          "segment": 149,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999827,
+          "output": "male_243",
+          "file": "male_243.wav"
+        },
+        {
+          "segment": 150,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.024000000000001,
+          "output": "male_244",
+          "file": "male_244.wav"
+        },
+        {
+          "segment": 151,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.1440000000000055,
+          "output": "male_245",
+          "file": "male_245.wav"
+        },
+        {
+          "segment": 152,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000001455,
+          "output": "male_246",
+          "file": "male_246.wav"
+        },
+        {
+          "segment": 153,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000218,
+          "output": "male_247",
+          "file": "male_247.wav"
+        },
+        {
+          "segment": 154,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.960000000000008,
+          "output": "male_248",
+          "file": "male_248.wav"
+        },
+        {
+          "segment": 155,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_249",
+          "file": "male_249.wav"
+        },
+        {
+          "segment": 156,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000148,
+          "output": "male_250",
+          "file": "male_250.wav"
+        },
+        {
+          "segment": 157,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_251",
+          "file": "male_251.wav"
+        },
+        {
+          "segment": 158,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.024000000000001,
+          "output": "male_252",
+          "file": "male_252.wav"
+        },
+        {
+          "segment": 159,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38399999999998613,
+          "output": "male_253",
+          "file": "male_253.wav"
+        },
+        {
+          "segment": 160,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.47999999999998977,
+          "output": "male_254",
+          "file": "male_254.wav"
+        },
+        {
+          "segment": 161,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9920000000000186,
+          "output": "male_255",
+          "file": "male_255.wav"
+        },
+        {
+          "segment": 162,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.8559999999999945,
+          "output": "male_256",
+          "file": "male_256.wav"
+        },
+        {
+          "segment": 163,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9279999999999973,
+          "output": "male_257",
+          "file": "male_257.wav"
+        },
+        {
+          "segment": 164,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9919999999999902,
+          "output": "male_258",
+          "file": "male_258.wav"
+        },
+        {
+          "segment": 165,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.9519999999999982,
+          "output": "male_259",
+          "file": "male_259.wav"
+        },
+        {
+          "segment": 166,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.4399999999999977,
+          "output": "male_260",
+          "file": "male_260.wav"
+        },
+        {
+          "segment": 167,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.912000000000006,
+          "output": "male_261",
+          "file": "male_261.wav"
+        },
+        {
+          "segment": 168,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7039999999999793,
+          "output": "male_262",
+          "file": "male_262.wav"
+        },
+        {
+          "segment": 169,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_263",
+          "file": "male_263.wav"
+        },
+        {
+          "segment": 170,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_264",
+          "file": "male_264.wav"
+        },
+        {
+          "segment": 171,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000077,
+          "output": "male_265",
+          "file": "male_265.wav"
+        },
+        {
+          "segment": 172,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4800000000000182,
+          "output": "male_266",
+          "file": "male_266.wav"
+        },
+        {
+          "segment": 173,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.367999999999995,
+          "output": "male_267",
+          "file": "male_267.wav"
+        },
+        {
+          "segment": 174,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.6960000000000264,
+          "output": "male_268",
+          "file": "male_268.wav"
+        },
+        {
+          "segment": 175,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3759999999999764,
+          "output": "male_269",
+          "file": "male_269.wav"
+        },
+        {
+          "segment": 176,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_270",
+          "file": "male_270.wav"
+        },
+        {
+          "segment": 177,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000077,
+          "output": "male_271",
+          "file": "male_271.wav"
+        },
+        {
+          "segment": 178,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0559999999999832,
+          "output": "male_272",
+          "file": "male_272.wav"
+        },
+        {
+          "segment": 179,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.184000000000026,
+          "output": "male_273",
+          "file": "male_273.wav"
+        },
+        {
+          "segment": 180,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.4639999999999986,
+          "output": "male_274",
+          "file": "male_274.wav"
+        },
+        {
+          "segment": 181,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_275",
+          "file": "male_275.wav"
+        },
+        {
+          "segment": 182,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.6240000000000236,
+          "output": "male_276",
+          "file": "male_276.wav"
+        },
+        {
+          "segment": 183,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.208000000000027,
+          "output": "male_277",
+          "file": "male_277.wav"
+        },
+        {
+          "segment": 184,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000323,
+          "output": "male_278",
+          "file": "male_278.wav"
+        },
+        {
+          "segment": 185,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9279999999999973,
+          "output": "male_279",
+          "file": "male_279.wav"
+        },
+        {
+          "segment": 186,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_280",
+          "file": "male_280.wav"
+        },
+        {
+          "segment": 187,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.47199999999998,
+          "output": "male_281",
+          "file": "male_281.wav"
+        },
+        {
+          "segment": 188,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7999999999999545,
+          "output": "male_282",
+          "file": "male_282.wav"
+        },
+        {
+          "segment": 189,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.1759999999999877,
+          "output": "male_283",
+          "file": "male_283.wav"
+        },
+        {
+          "segment": 190,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.2479999999999905,
+          "output": "male_284",
+          "file": "male_284.wav"
+        },
+        {
+          "segment": 191,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.656000000000006,
+          "output": "male_285",
+          "file": "male_285.wav"
+        },
+        {
+          "segment": 192,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.32000000000005,
+          "output": "male_286",
+          "file": "male_286.wav"
+        },
+        {
+          "segment": 193,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.2160000000000082,
+          "output": "male_287",
+          "file": "male_287.wav"
+        },
+        {
+          "segment": 194,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4479999999999791,
+          "output": "male_288",
+          "file": "male_288.wav"
+        },
+        {
+          "segment": 195,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0559999999999832,
+          "output": "male_289",
+          "file": "male_289.wav"
+        },
+        {
+          "segment": 196,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4479999999999791,
+          "output": "male_290",
+          "file": "male_290.wav"
+        },
+        {
+          "segment": 197,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000218,
+          "output": "male_291",
+          "file": "male_291.wav"
+        },
+        {
+          "segment": 198,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_292",
+          "file": "male_292.wav"
+        },
+        {
+          "segment": 199,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_293",
+          "file": "male_293.wav"
+        },
+        {
+          "segment": 200,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_294",
+          "file": "male_294.wav"
+        },
+        {
+          "segment": 201,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_295",
+          "file": "male_295.wav"
+        },
+        {
+          "segment": 202,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_296",
+          "file": "male_296.wav"
+        },
+        {
+          "segment": 203,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8319999999999936,
+          "output": "male_297",
+          "file": "male_297.wav"
+        },
+        {
+          "segment": 204,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.919999999999959,
+          "output": "male_298",
+          "file": "male_298.wav"
+        },
+        {
+          "segment": 205,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000218,
+          "output": "male_299",
+          "file": "male_299.wav"
+        },
+        {
+          "segment": 206,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_300",
+          "file": "male_300.wav"
+        },
+        {
+          "segment": 207,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4479999999999791,
+          "output": "male_301",
+          "file": "male_301.wav"
+        },
+        {
+          "segment": 208,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.9119999999999777,
+          "output": "male_302",
+          "file": "male_302.wav"
+        },
+        {
+          "segment": 209,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_303",
+          "file": "male_303.wav"
+        },
+        {
+          "segment": 210,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6720000000000255,
+          "output": "male_304",
+          "file": "male_304.wav"
+        },
+        {
+          "segment": 211,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000001455,
+          "output": "male_305",
+          "file": "male_305.wav"
+        },
+        {
+          "segment": 212,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_306",
+          "file": "male_306.wav"
+        },
+        {
+          "segment": 213,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4159999999999968,
+          "output": "male_307",
+          "file": "male_307.wav"
+        },
+        {
+          "segment": 214,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7679999999999723,
+          "output": "male_308",
+          "file": "male_308.wav"
+        },
+        {
+          "segment": 215,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_309",
+          "file": "male_309.wav"
+        },
+        {
+          "segment": 216,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999827,
+          "output": "male_310",
+          "file": "male_310.wav"
+        },
+        {
+          "segment": 217,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.73599999999999,
+          "output": "male_311",
+          "file": "male_311.wav"
+        },
+        {
+          "segment": 218,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000001455,
+          "output": "male_312",
+          "file": "male_312.wav"
+        },
+        {
+          "segment": 219,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3120000000000118,
+          "output": "male_313",
+          "file": "male_313.wav"
+        },
+        {
+          "segment": 220,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000077,
+          "output": "male_314",
+          "file": "male_314.wav"
+        },
+        {
+          "segment": 221,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999997544,
+          "output": "male_315",
+          "file": "male_315.wav"
+        },
+        {
+          "segment": 222,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4479999999999791,
+          "output": "male_316",
+          "file": "male_316.wav"
+        },
+        {
+          "segment": 223,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3199999999999932,
+          "output": "male_317",
+          "file": "male_317.wav"
+        },
+        {
+          "segment": 224,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999827,
+          "output": "male_318",
+          "file": "male_318.wav"
+        },
+        {
+          "segment": 225,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999997544,
+          "output": "male_319",
+          "file": "male_319.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512142309.mp3": {
+      "original_duration": 45.324,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.48,
+          "output": "male_320",
+          "file": "male_320.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000001,
+          "output": "male_321",
+          "file": "male_321.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3519999999999994,
+          "output": "male_322",
+          "file": "male_322.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Female",
+          "confidence": 0.7692307692307693,
+          "duration": 5.4079999999999995,
+          "output": "female_13",
+          "file": "female_13.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Female",
+          "confidence": 0.7692307692307693,
+          "duration": 6.751999999999999,
+          "output": "female_14",
+          "file": "female_14.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000005,
+          "output": "male_323",
+          "file": "male_323.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.8640000000000008,
+          "output": "male_324",
+          "file": "male_324.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.5440000000000005,
+          "output": "male_325",
+          "file": "male_325.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.7439999999999998,
+          "output": "male_326",
+          "file": "male_326.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.8799999999999955,
+          "output": "male_327",
+          "file": "male_327.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.607999999999997,
+          "output": "male_328",
+          "file": "male_328.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.048000000000002,
+          "output": "male_329",
+          "file": "male_329.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.0239999999999938,
+          "output": "male_330",
+          "file": "male_330.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.544000000000004,
+          "output": "male_331",
+          "file": "male_331.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000041,
+          "output": "male_332",
+          "file": "male_332.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9600000000000009,
+          "output": "male_333",
+          "file": "male_333.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512142317.mp3": {
+      "original_duration": 59.94,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.41600000000000004,
+          "output": "male_334",
+          "file": "male_334.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3839999999999999,
+          "output": "male_335",
+          "file": "male_335.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000002,
+          "output": "male_336",
+          "file": "male_336.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_337",
+          "file": "male_337.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.7919999999999998,
+          "output": "male_338",
+          "file": "male_338.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 0.41600000000000037,
+          "output": "female_15",
+          "file": "female_15.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 2.6879999999999997,
+          "output": "male_339",
+          "file": "male_339.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.2479999999999993,
+          "output": "male_340",
+          "file": "male_340.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000007,
+          "output": "male_341",
+          "file": "male_341.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_342",
+          "file": "male_342.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000005,
+          "output": "male_343",
+          "file": "male_343.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.120000000000001,
+          "output": "male_344",
+          "file": "male_344.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 1.4079999999999977,
+          "output": "uncertain_5",
+          "file": "uncertain_5.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.41600000000000037,
+          "output": "male_345",
+          "file": "male_345.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.41600000000000037,
+          "output": "male_346",
+          "file": "male_346.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_347",
+          "file": "male_347.wav"
+        },
+        {
+          "segment": 17,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7360000000000007,
+          "output": "male_348",
+          "file": "male_348.wav"
+        },
+        {
+          "segment": 18,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5760000000000005,
+          "output": "male_349",
+          "file": "male_349.wav"
+        },
+        {
+          "segment": 19,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 2.432000000000002,
+          "output": "male_350",
+          "file": "male_350.wav"
+        },
+        {
+          "segment": 20,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.9599999999999937,
+          "output": "male_351",
+          "file": "male_351.wav"
+        },
+        {
+          "segment": 21,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 4.384,
+          "output": "male_352",
+          "file": "male_352.wav"
+        },
+        {
+          "segment": 22,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 0.7360000000000042,
+          "output": "female_16",
+          "file": "female_16.wav"
+        },
+        {
+          "segment": 23,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.7280000000000015,
+          "output": "male_353",
+          "file": "male_353.wav"
+        },
+        {
+          "segment": 24,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000006,
+          "output": "male_354",
+          "file": "male_354.wav"
+        },
+        {
+          "segment": 25,
+          "gender": "Male",
+          "confidence": 0.6666666666666666,
+          "duration": 0.6400000000000006,
+          "output": "male_355",
+          "file": "male_355.wav"
+        },
+        {
+          "segment": 26,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_356",
+          "file": "male_356.wav"
+        },
+        {
+          "segment": 27,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35200000000000387,
+          "output": "male_357",
+          "file": "male_357.wav"
+        },
+        {
+          "segment": 28,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.607999999999997,
+          "output": "male_358",
+          "file": "male_358.wav"
+        },
+        {
+          "segment": 29,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5120000000000005,
+          "output": "male_359",
+          "file": "male_359.wav"
+        },
+        {
+          "segment": 30,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.024000000000001,
+          "output": "male_360",
+          "file": "male_360.wav"
+        },
+        {
+          "segment": 31,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.4480000000000004,
+          "output": "male_361",
+          "file": "male_361.wav"
+        },
+        {
+          "segment": 32,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.5439999999999969,
+          "output": "male_362",
+          "file": "male_362.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512142319.mp3": {
+      "original_duration": 44.352,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999999987,
+          "output": "male_363",
+          "file": "male_363.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_364",
+          "file": "male_364.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6080000000000005,
+          "output": "male_365",
+          "file": "male_365.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Female",
+          "confidence": 0.8125,
+          "duration": 0.3200000000000003,
+          "output": "female_17",
+          "file": "female_17.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7359999999999989,
+          "output": "male_366",
+          "file": "male_366.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.3760000000000012,
+          "output": "male_367",
+          "file": "male_367.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 0.38399999999999856,
+          "output": "male_368",
+          "file": "male_368.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_369",
+          "file": "male_369.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.7040000000000006,
+          "output": "male_370",
+          "file": "male_370.wav"
+        },
+        {
+          "segment": 10,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.38400000000000034,
+          "output": "male_371",
+          "file": "male_371.wav"
+        },
+        {
+          "segment": 11,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.823999999999998,
+          "output": "male_372",
+          "file": "male_372.wav"
+        },
+        {
+          "segment": 12,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6400000000000006,
+          "output": "male_373",
+          "file": "male_373.wav"
+        },
+        {
+          "segment": 13,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_374",
+          "file": "male_374.wav"
+        },
+        {
+          "segment": 14,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_375",
+          "file": "male_375.wav"
+        },
+        {
+          "segment": 15,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.9919999999999973,
+          "output": "male_376",
+          "file": "male_376.wav"
+        },
+        {
+          "segment": 16,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3200000000000003,
+          "output": "male_377",
+          "file": "male_377.wav"
+        },
+        {
+          "segment": 17,
+          "gender": "Male",
+          "confidence": 0.6666666666666666,
+          "duration": 0.5439999999999969,
+          "output": "male_378",
+          "file": "male_378.wav"
+        },
+        {
+          "segment": 18,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_379",
+          "file": "male_379.wav"
+        },
+        {
+          "segment": 19,
+          "gender": "Male",
+          "confidence": 0.8,
+          "duration": 2.240000000000002,
+          "output": "male_380",
+          "file": "male_380.wav"
+        },
+        {
+          "segment": 20,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.35199999999999676,
+          "output": "male_381",
+          "file": "male_381.wav"
+        }
+      ]
+    },
+    "CHENNURU SHREYA REDDY-2512221950.mp3": {
+      "error": "No segments detected",
+      "segments": 0
+    },
+    "CHENNURU SHREYA REDDY-2512242154.mp3": {
+      "original_duration": 24.732,
+      "segments": [
+        {
+          "segment": 1,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.6399999999999999,
+          "output": "male_382",
+          "file": "male_382.wav"
+        },
+        {
+          "segment": 2,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.3520000000000003,
+          "output": "male_383",
+          "file": "male_383.wav"
+        },
+        {
+          "segment": 3,
+          "gender": "Uncertain",
+          "confidence": 0.5454545454545454,
+          "duration": 0.96,
+          "output": "uncertain_6",
+          "file": "uncertain_6.wav"
+        },
+        {
+          "segment": 4,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 1.6320000000000006,
+          "output": "male_384",
+          "file": "male_384.wav"
+        },
+        {
+          "segment": 5,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 2.3359999999999985,
+          "output": "female_18",
+          "file": "female_18.wav"
+        },
+        {
+          "segment": 6,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 0.927999999999999,
+          "output": "male_385",
+          "file": "male_385.wav"
+        },
+        {
+          "segment": 7,
+          "gender": "Male",
+          "confidence": 0.8571428571428571,
+          "duration": 3.007999999999999,
+          "output": "male_386",
+          "file": "male_386.wav"
+        },
+        {
+          "segment": 8,
+          "gender": "Female",
+          "confidence": 0.7692307692307693,
+          "duration": 0.5120000000000005,
+          "output": "female_19",
+          "file": "female_19.wav"
+        },
+        {
+          "segment": 9,
+          "gender": "Female",
+          "confidence": 0.5555555555555556,
+          "duration": 3.007999999999999,
+          "output": "female_20",
+          "file": "female_20.wav"
+        }
+      ]
+    }
+  }
+}
